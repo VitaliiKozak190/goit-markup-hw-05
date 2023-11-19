@@ -555,6 +555,7 @@ img {
 .social-media-list {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 .social-media-subtitle {
   color: var(--WHITE, #fff);
@@ -570,6 +571,67 @@ img {
   height: 24px;
   fill: #f4f4fd;
 }
+/* -----SUBSCRIBE BOX----- */
+.subscribe-input-box {
+  margin-left: 80px;
+}
+.subscribe-paragraph {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-input-subs {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 16px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5; /* 200% */
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.footer-input-subs:focus {
+  outline-color: transparent;
+  outline-offset: 1px;
+}
+.footer-input-subs::placeholder {
+  color: #ffffff;
+}
+.sub-button {
+  width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.sub-icon {
+  margin-left: 16px;
+  fill: #ffffff;
+}
+/* =======////SUBSCRIBE BOX======== */
 /*========/ Footeer========= */
 /* <!-- ===========backdrop windows========== --> */
 .backdrop {
@@ -810,7 +872,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-
 .review-form-btn:hover,
 .review-form-btn:focus {
   background: var(--OCEAN, #404bbf);
